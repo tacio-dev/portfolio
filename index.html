@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/acordeon.css" />
   </head>
 
   <body>
@@ -20,14 +21,34 @@
       <header class="header">
         <img src="./assets/img/perfil.png" alt="Foto do Tácio" class="photo" />
 
-        <h1 class="title">Olá, eu sou Tácio!</h1>
-        <div class="informations">
-          <p>Estudante | Desenvolvedor Web</p>
-          <p>Itapetininga - SP</p>
-          <p>(15) 99684-5546</p>
-          <p>diastacio98@gmail.com</p>
+        <h1 class="title">
+          Olá! <br />
+          Eu sou Tácio!
+        </h1>
+        <div class="information">
+          <p class="job">Estudante | Desenvolvedor Web</p>
+          <p class="location">Itapetininga - SP</p>
+          <p class="phone">(15) 99684-5546</p>
+          <p class="email">diastacio98@gmail.com</p>
         </div>
       </header>
+      <section class="acordeon">
+        <button class="trigger">Idiomas</button>
+        <div class="content">
+          <ul>
+            <li>Inglês</li>
+          </ul>
+        </div>
+      </section>
+      <section class="acordeon">
+        <button class="trigger">Skills</button>
+        <div class="content">
+          <h3>Habilidades profissionais</h3>
+          <ul>
+            <li>React</li>
+          </ul>
+        </div>
+      </section>
     </div>
   </body>
 </html>
