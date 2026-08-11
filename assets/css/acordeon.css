@@ -5,6 +5,12 @@
   margin: 1rem 0;
   border: 1px solid white;
   border-radius: 1rem;
+  transition: 0.25s;
+}
+
+.acordeon:hover,
+.acordeon.open {
+  background-color: #015c4e;
 }
 
 .acordeon .trigger {
@@ -31,9 +37,22 @@
   width: 2rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../img/icons/email.svg);
+  background-image: url(../img/icons/seta.svg);
+}
+
+.acordeon.open .trigger::after {
+  transform: rotate(180deg);
 }
 
 .acordeon .content {
-  display: none;
+  overflow: hidden;
+  height: 0;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.acordeon.open .content {
+  display: inline-block;
+  height: auto;
+  opacity: 1;
 }
