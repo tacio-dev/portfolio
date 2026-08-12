@@ -6,8 +6,18 @@
 
 body {
   background-color: black;
-  background-image: url(../img/Design\ sem\ nome.png);
+  background-image: url(../img/background2.png);
   color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #a8ff1c;
+  text-decoration: underline;
 }
 
 .main {

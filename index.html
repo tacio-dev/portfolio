@@ -14,6 +14,10 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/global.css" />
     <link rel="stylesheet" href="./assets/css/acordeon.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/projects.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
   </head>
 
   <body>
@@ -28,25 +32,125 @@
         <div class="information">
           <p class="job">Estudante | Desenvolvedor Web</p>
           <p class="location">Itapetininga - SP</p>
-          <p class="phone">(15) 99684-5546</p>
+          <p class="phone">
+            <a href="https://wa.me/5515996845546" target="_blank"
+              >(15) 99684-5546</a
+            >
+          </p>
           <p class="email">diastacio98@gmail.com</p>
         </div>
       </header>
       <section class="acordeon">
-        <button class="trigger">Idiomas</button>
+        <button class="trigger">
+          <h2>Idiomas</h2>
+        </button>
         <div class="content">
-          <ul>
-            <li>Inglês</li>
+          <ul class="languages">
+            <li>Português (BR) - Nativo</li>
+            <li>Inglês - Avançado</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger">
+          <h2>Projetos</h2>
+        </button>
+        <div class="content">
+          <ul class="projects">
+            <li>
+              <h3 class="title">NÃO ENTRE EM PÂNICO!</h3>
+              <p>
+                Jogo da memória front-end com uma interface retrofuturista e
+                referências… estranhamente específicas. Desenvolvido com HTML,
+                CSS e JavaScript, o projeto aplica conceitos de lógica de
+                programação, manipulação de DOM e interatividade.
+              </p>
+
+              <ul class="technologies">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+              <div class="project-links">
+                <a
+                  href="https://tacio-dev.github.io/jogoMemoria/"
+                  target="_blank"
+                  >Ver projeto</a
+                >
+                <a
+                  href="https://github.com/tacio-dev/jogoMemoria"
+                  target="_blank"
+                  >Repositório GitHub</a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger">
+          <h2>Experiência Profissional</h2>
+        </button>
+        <div class="content">
+          <ul class="experience">
+            <li>
+              <h3 class="title">Cargo 1 / Empresa 1</h3>
+              <time class="period">01/2020 - 01/2021</time>
+              <p>bagulhos deliciosos que eu fiz lá</p>
+            </li>
           </ul>
         </div>
       </section>
       <section class="acordeon">
-        <button class="trigger">Skills</button>
+        <button class="trigger">
+          <h2>Skills</h2>
+        </button>
         <div class="content">
-          <h3>Habilidades profissionais</h3>
-          <ul>
-            <li>React</li>
-          </ul>
+          <div class="skills">
+            <section class="tools">
+              <h3>Ferramentas</h3>
+              <ul>
+                <li>
+                  <img
+                    src="./assets/img/icons/tools/javascript.svg"
+                    alt="JavaScript"
+                    title="JavaScript"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/icons/tools/html.svg"
+                    alt="HTML"
+                    title="HTML"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/icons/tools/css.svg"
+                    alt="CSS"
+                    title="CSS"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="./assets/img/icons/tools/reactjs.svg"
+                    alt="React"
+                    title="React"
+                  />
+                </li>
+                <li></li>
+              </ul>
+            </section>
+            <section class="soft-skills">
+              <h3>Habilidades Pessoais</h3>
+              <ul>
+                <li>Facilidade de Aprendizado</li>
+                <li>Organização</li>
+              </ul>
+            </section>
+          </div>
         </div>
       </section>
     </div>
