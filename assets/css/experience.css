@@ -3,7 +3,7 @@
   flex-direction: column;
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: disc;
 }
 
 .experience li .period {
@@ -20,5 +20,27 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-image: url(../img/icons/calendario.svg);
+  margin-right: 0.5rem;
+}
+
+.experience li .title {
+  margin-bottom: 0.5rem;
+}
+
+.company {
+  font-style: italic;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+.company::before {
+  content: "";
+  display: inline-block;
+  align-self: center;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../img/icons/empresa.svg);
   margin-right: 0.5rem;
 }

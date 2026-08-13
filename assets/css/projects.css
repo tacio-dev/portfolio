@@ -13,7 +13,7 @@
   padding: 1rem;
 }
 
-.projects .project-links{
+.projects .project-links {
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -30,6 +30,6 @@
   margin-bottom: 0.5rem;
 }
 
-.technologies li{
+.technologies li {
   display: inline;
 }

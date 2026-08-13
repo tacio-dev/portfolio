@@ -10,9 +10,14 @@ body {
   color: white;
 }
 
-hr{
+hr {
   width: 100%;
   color: #a8ff1c;
+}
+
+figure {
+  text-align: center;
+  margin: 0.25rem;
 }
 
 a {
