@@ -10,6 +10,11 @@ body {
   color: white;
 }
 
+hr{
+  width: 100%;
+  color: #a8ff1c;
+}
+
 a {
   text-decoration: none;
   color: white;

@@ -13,6 +13,14 @@
   padding: 1rem;
 }
 
+.projects .project-links{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  font-size: 1.25rem;
+  text-align: center;
+  gap: 4rem;
+}
 .projects li .title {
   display: flex;
   flex-direction: row;
@@ -20,4 +28,8 @@
   font-weight: 700;
   margin: 0;
   margin-bottom: 0.5rem;
+}
+
+.technologies li{
+  display: inline;
 }
