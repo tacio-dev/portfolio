@@ -30,6 +30,11 @@
   margin-bottom: 0.5rem;
 }
 
-.technologies li {
-  display: inline;
+.technologies {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  align-self: center;
+  padding: 0;
+
 }

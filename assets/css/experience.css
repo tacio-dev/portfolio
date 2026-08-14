@@ -9,6 +9,7 @@
 .experience li .period {
   display: flex;
   flex-direction: row;
+  font-style: italic;
 }
 
 .experience li .period::before {
@@ -32,6 +33,8 @@
   margin: 0;
   padding-bottom: 0.5rem;
 }
+
+
 
 .company::before {
   content: "";
