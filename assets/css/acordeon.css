@@ -24,6 +24,7 @@
   background-color: transparent;
   color: white;
   border: none;
+  transition: color 0.25s;
 }
 
 .acordeon .trigger h2 {
@@ -34,6 +35,11 @@
 
 .acordeon .trigger:hover {
   cursor: pointer;
+  color: #a8ff1c;
+}
+
+.acordeon.open .trigger {
+  color: #a8ff1c;
 }
 
 .acordeon .trigger::after {

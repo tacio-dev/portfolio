@@ -34,8 +34,6 @@
   padding-bottom: 0.5rem;
 }
 
-
-
 .company::before {
   content: "";
   display: inline-block;
