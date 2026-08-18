@@ -4,15 +4,23 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   border: 1px solid var(--branco1);
   border-radius: 1rem;
   transition: 0.25s;
 }
 
+.acordeon:last-child {
+  margin: 0.5rem 0;
+}
+
 .acordeon:hover,
 .acordeon.open {
   background-color: var(--verde1);
+}
+
+.acordeon.open {
+  padding-bottom: 1rem;
 }
 
 .acordeon .trigger {
