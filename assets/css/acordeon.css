@@ -1,16 +1,18 @@
+@import url(colors.css);
+
 .acordeon {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 1rem 0;
-  border: 1px solid white;
+  border: 1px solid var(--branco1);
   border-radius: 1rem;
   transition: 0.25s;
 }
 
 .acordeon:hover,
 .acordeon.open {
-  background-color: #015c4e;
+  background-color: var(--verde1);
 }
 
 .acordeon .trigger {
@@ -22,7 +24,7 @@
   font-weight: 700;
   padding: 1rem 2rem;
   background-color: transparent;
-  color: white;
+  color: var(--branco1);
   border: none;
   transition: color 0.25s;
 }
@@ -35,11 +37,11 @@
 
 .acordeon .trigger:hover {
   cursor: pointer;
-  color: #a8ff1c;
+  color: var(--verde2);
 }
 
 .acordeon.open .trigger {
-  color: #a8ff1c;
+  color: var(--verde2);
 }
 
 .acordeon .trigger::after {
@@ -65,7 +67,6 @@
 
 .acordeon.open .content {
   display: inline-block;
-  padding: 0 1rem 1rem 2rem;
   height: auto;
   opacity: 1;
 }

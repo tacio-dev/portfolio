@@ -4,8 +4,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+@import url(colors.css);
+
 body {
-  background: #121212;
+  background: var(--branco1);
   background: linear-gradient(
     320deg,
     rgba(18, 18, 18, 1) 10%,
@@ -14,12 +16,7 @@ body {
   );
   background-repeat: no-repeat;
   background-attachment: fixed;
-  color: white;
-}
-
-hr {
-  width: 100%;
-  color: #a8ff1c;
+  color: var(--branco1);
 }
 
 figure {
@@ -29,20 +26,20 @@ figure {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--branco1);
 }
 
 a:hover {
-  color: #a8ff1c;
+  color: var(--verde2);
   text-decoration: underline;
 }
 
 .main {
   margin: 0.5rem;
   padding: 0.5rem;
-  border: 1px solid white;
+  border: 1px solid var(--branco1);
   border-radius: 1rem;
-  background-color: #0f0f0f;
+  background-color: var(--preto1);
 }
 
 .main::before {

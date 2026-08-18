@@ -1,15 +1,25 @@
+@import url(colors.css);
+
 .experience {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
-  list-style: disc;
+}
+
+.experience li{
+  background-color: var(--preto2);
+  border-radius: 1.5rem;
+  padding: 0 2rem;
+  margin: 0.5rem;
+  list-style: none;
 }
 
 .experience li .period {
   display: flex;
   flex-direction: row;
   font-style: italic;
+  color: var(--claro);
 }
 
 .experience li .period::before {
@@ -26,9 +36,11 @@
 
 .experience li .title {
   margin-bottom: 0.5rem;
+  color: var(--verde2);
 }
 
 .company {
+  color: var(--claro);
   font-style: italic;
   margin: 0;
   padding-bottom: 0.5rem;

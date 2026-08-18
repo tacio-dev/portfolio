@@ -1,3 +1,5 @@
+@import url(colors.css);
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -9,10 +11,11 @@
 .projects li {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  padding: 1rem;
+  justify-content: space-evenly;
+  background-color: var(--preto2);
   border-radius: 1.5rem;
-  border: 1px solid #a8ff1c;
+  padding: 0 2rem;
+  margin: 0.5rem;
 }
 
 .projects .project-links {
@@ -28,9 +31,11 @@
   font-size: 1.5rem;
   margin: 0;
   text-align: center;
+  color: var(--verde2);
 }
 
 .projects li .subtitle {
+  color: var(--claro);
   font-weight: 500;
   font-style: italic;
   margin: 0.25rem 0 0.15rem 0;
