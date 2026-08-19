@@ -41,6 +41,8 @@
   margin: 0;
   font-size: 1.5rem;
   text-align: start;
+  font-family: "JetBrains Mono", monospace;
+  text-transform: uppercase;
 }
 
 .acordeon .trigger:hover {
