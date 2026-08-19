@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
@@ -22,6 +23,7 @@ body {
 b {
   font-weight: 700;
   color: var(--verde2);
+  font-family: "JetBrains Mono", sans-serif;
 }
 
 figure {
@@ -31,12 +33,17 @@ figure {
 
 a {
   text-decoration: none;
-  color: var(--branco1);
+  color: var(--claro);
 }
 
 a:hover {
   color: var(--verde2);
   text-decoration: underline;
+}
+
+p {
+  line-height: 1.5rem;
+  text-align: justify;
 }
 
 .main {
@@ -56,7 +63,7 @@ a:hover {
 
 @media only screen and (min-width: 768px) {
   .main {
-    max-width: 1024px;
+    max-width: 60rem;
     margin: 1rem auto;
   }
 }

@@ -1,13 +1,13 @@
 @import url(colors.css);
 
-.experience {
+.education {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
 }
 
-.experience li {
+.education li {
   background-color: var(--preto2);
   border-radius: 1.5rem;
   padding: 0 2rem;
@@ -15,14 +15,14 @@
   list-style: none;
 }
 
-.experience li .period {
+.education li .period {
   display: flex;
   flex-direction: row;
   font-style: italic;
   color: var(--claro);
 }
 
-.experience li .period::before {
+.education li .period::before {
   content: "";
   display: inline-block;
   align-self: center;
@@ -30,23 +30,27 @@
   height: 0.75rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../img/icons/calendario.svg);
+  background-image: url(../img/icons/graduacao.svg);
   margin-right: 0.5rem;
 }
 
-.experience li .title {
+.education li .title {
   margin-bottom: 0.5rem;
   color: var(--verde2);
 }
 
-.company {
+.education time {
+  margin-bottom: 1rem;
+}
+
+.institution {
   color: var(--claro);
   font-style: italic;
   margin: 0;
   padding-bottom: 0.5rem;
 }
 
-.company::before {
+.institution::before {
   content: "";
   display: inline-block;
   align-self: center;
@@ -54,6 +58,6 @@
   height: 0.75rem;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../img/icons/empresa.svg);
+  background-image: url(../img/icons/instituicao.svg);
   margin-right: 0.5rem;
 }

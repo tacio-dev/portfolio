@@ -50,6 +50,10 @@
   color: var(--verde2);
 }
 
+.acordeon .trigger:hover::after {
+  background-image: url(../img/icons/seta2.svg);
+}
+
 .acordeon.open .trigger {
   color: var(--verde2);
 }
@@ -66,6 +70,7 @@
 
 .acordeon.open .trigger::after {
   transform: rotate(180deg);
+  background-image: url(../img/icons/seta2.svg);
 }
 
 .acordeon .content {
